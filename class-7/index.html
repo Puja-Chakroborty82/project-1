@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind 1 st class</title>
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="flex justify-between px-4 py-6 bg-slate-200">
+        <!--logo-->
+        <div>
+            <img class="w-32" src="./img/Logo.png">
+
+        </div>
+
+        <!--manu>-->
+        <div>
+            <ul class="flex gap-4 font-semibold">
+                <li><a href="">Home</a></li>
+                <li><a href=""></a>Portfolio</li>
+                <li><a href="">About</a></li>
+                <li><a href="">Testimonials</a></li>
+            </ul>
+
+        </div>
+
+        <!--button-->
+        <div>
+            <button class="border-2 px-1 py-1 text-blue-500">Contac me</button>
+
+        </div>
+          </div><br><br><br>
+        <!--hero-->
+        <div class="flex justify-center bg-blue-100 ">
+
+        <div class="justify-center px-30 py-30">
+            <p class=" text-base font-medium">Hey, I am John</p>
+
+            <h1 1 class="text-4xl font-bold py-2 ">I create
+             <span class="text-violet-700">product design </span>and brand experience</h1>
+            <p class=" text-base font-medium gap-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <div class="py-4">
+                   <button class="border-2 px-4 py-2 bg-violet-700 text-white gap-4">
+                    Get In Touch</button>
+            </div>
+
+     
+        </div>
+
+          <div class="bg-blue-100 rounded-2xl">
+            <img src="./img/1stimg.png">
+        </div>
+
+        </div><br><br><br><br><br><br><br>
+        <!--card section-->
+        <div class="px-7 py-11 bg-slate-100">
+            
+            <div class="px-8">
+                <p class="text-base font-medium ">My Skills</p>
+                <h1 class=" font-bold text-5xl">My Expertise</h1><br> <br><br>
+            </div>
+
+            <div class="flex gap-8 justify-center">
+                <div>
+                    <img class="w-80 bg-slate-400 px-6 py-4" src="./img/SectionTitle1.png" alt="1">
+                </div>
+                <div>
+                    <img class=" w-80  bg-slate-400  px-6 py-4 " src="./img/SectionTitle2.png" alt="2">
+                </div>
+                <div>
+                    <img class=" w-80  bg-slate-400  px-6 py-4" src="./img/SectionTitle3.png" alt="3">
+                </div>
+                <div>
+                    <img class=" w-80  bg-slate-400  px-6 py-4" src="./img/SectionTitle4.png" alt="4">
+                </div>
+                 
+            </div>
+
+        </div>
+        <!--About-->
+       <div class="flex py-40">
+         <div class="bg-white border-0">
+                <img class="w-auto" src="./img/About Me.png">
+            </div>
+
+            <div class="px-12 py-48 gap-60">
+                <p class="font-medium">About me</p>
+                <h class="text-2xl font-bold">About Me</h><br>
+                <p  class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                <br>
+                <p class="text-slate-500">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+            </div>
+       </div>
+       <!--portfoli-->
+       <div class="flex justify-between px-7 py-11">
+        <div class="">
+            <p class="font-medium ">Recent Projects</p>
+        <h1 class="font-bold  py- 1 text-4xl">My Portfolio</h1>
+        </div>
+         <button class=" border-2 px-7 py-3 bg-red-600 ">Visit My Dribbble</button>
+       </div>
+       <div class="flex items-center bg-white ">
+
+        <div>
+            <img src="./img/Card.png">
+        </div>
+        <div>
+            <img src="./img/Card(1).png">
+        </div>
+        <div>
+            <img src="./img/Card(2).png">
+        </div>
+
+       </div>
+       <!--feedback-->
+       <div class=" justify-center bg-blue-100 px-7 py-11">
+
+        <div class="px-7 py-11">
+            <p>Clients Feedback</p>
+            <h1 class="text-4xl font-bold">Customer testimonials</h1>
+        </div>
+
+        <div class=" flex justify-between gap-3 px-7 py-5  ">
+            <div>
+                <img class="w-96 bg-slate-100" src="./img/Column.png">
+            </div>
+            <div>
+                <img  class="w-96 bg-slate-100" src="./img/Column(1).png">
+            </div>
+            <div>
+                <img  class="w-96 bg-slate-100" src="./img/Column(2).png">
+            </div>
+        </div>
+
+       </div>
+
+     <!--from section-->
+       <div class="mt-20">
+        <!-- from's text div -->
+        <div class="text-center">
+            <p class="text-[21px]">Get In Touch</p>
+            <h1 class="text-[64px] font-semibold">Contact me</h1>
+            <p class="text-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <form class="w-[1024px] mx-auto mt-16">
+            <div class="grid grid-cols-2 gap-5">
+                <div >
+                    <label class="text-[20px]" for="firstname">first Name</label>
+                   <input class=" py-2 px-3 w-full outline-1 outline-[#5E3BEE]  rounded-lg mt-3 " type="text" name="firstname" id="">
+                </div>
+                 <div >
+                    <label class="text-[20px]" for="lastname">Last Name</label>
+                   <input class=" py-2 px-3 w-full outline-1 outline-[#5E3BEE] rounded-lg mt-3 " type="text" name="lastname" id="">
+                </div>
+                 <div >
+                    <label class="text-[20px]" for="email">Email</label>
+                   <input class="py-2 px-3 w-full outline-1 outline-[#5E3BEE]  rounded-lg mt-3 " type="email" name="firstname" id="">
+                  
+                </div>
+                 <div >
+                    <label class="text-[20px]" for="number"> Phone Number</label>
+                   <input class=" py-2 px-3 w-full outline-1 outline-[#5E3BEE]  rounded-lg mt-3 " type="number" name="firstname" id="">
+                </div>
+
+            </div>
+            
+            <div class="mt-10">
+                <label class="text-[20px]" for="">Choose a topic</label>
+                <select class="py-2 px-3 w-full outline-1 outline-[#5E3BEE]  rounded-lg mt-3">
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                </select>
+
+            </div>
+           <div class="mt-10">
+            <label class="text-[20px]" for="">Message</label>
+             <textarea class="py-2 px-3 w-full outline-1 outline-[#5E3BEE] rounded-lg mt-3 " name="text" id="" rows="5"></textarea>
+        </div>
+        </form>
+        
+       
+
+       </div>
+    
+
+     
+       
+
+
+</body>
+</html>
